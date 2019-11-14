@@ -1,1 +1,5 @@
-<span class="app-title-span">{{title}}</span>
+<!--directiva custom-->
+<span appHighlight class="app-title-span">{{title}}</span>
+<hr>
+<!--directiva custom con parámetros-->
+<span [appHighlight]="'yellow'" class="app-title-span">{{title}}</span>
